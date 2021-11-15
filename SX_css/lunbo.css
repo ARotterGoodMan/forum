@@ -1,0 +1,76 @@
+@media (min-width: 680px) {
+    #formtj {
+        width: 600px;
+    }
+}
+
+#demomo {
+    background-color: rgb(255, 255, 255);
+    min-width: 360px;
+    max-width: 36%;
+    height: 300px;
+    border-radius: 3px;
+
+}
+
+#home a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#home li {
+    font-size: 20px;
+    width: 85%;
+    margin: 35px 0 35px 0;
+    border-radius: 5px;
+    box-shadow: 0 3px 15px 4px rgba(0, 0, 0, 0.25);
+}
+
+h5 {
+    text-align: center;
+    margin-top: -200px;
+}
+
+#pinglun {
+    margin-bottom: 30px;
+}
+
+.pl_label {
+    color: #e0e0e0;
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+    display: block;
+    width: 100%;
+}
+
+aside {
+    background-color: rgba(78, 85, 91, 0.6);
+}
+
+.input-group-text {
+    padding: 0 20px 0 20px !important;
+}
+
+#formtj {
+    border-radius: 10px;
+    background: rgba(54, 209, 248, 0.78);
+    display: block;
+    padding: 10px 10% 10px 10%;
+    margin: 20px 0 40px 0;
+}
+
+#yhly {
+    width: 85%;
+    background: #c7fdfd;
+    border-radius: 10px;
+    height: 80px;
+    margin: 10px;
+    box-shadow: 0 0 5px 5px rgba(14, 132, 181, 0.2);
+}
+#yhly:hover{
+    background-color: #87f5ff;
+    box-shadow: 10px 10px rgba(132, 205, 232, 0.8);
+}

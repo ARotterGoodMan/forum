@@ -1,0 +1,37 @@
+audio{
+
+}
+
+ol, ul {
+    list-style: none
+}
+.lastMusic{
+    text-align:center;
+}
+.lastMusic img{
+    width:25px;
+    height:25px;
+    cursor:pointer;
+}
+
+.float_r{float:right;}
+.float_l{float:left;}
+.playMode{text-align:right;}
+
+.songStyle h3{
+    margin: 1px;
+    padding: 1px 1px 1px 10px;
+    height: 24px;
+}
+.playDiv{
+    margin-bottom:10px;
+}
+
+.currentSpan{
+    padding-left:3px;
+}
+
+.info div{
+    padding: 10px 0 10px 10px;
+    font-size:12px;
+}

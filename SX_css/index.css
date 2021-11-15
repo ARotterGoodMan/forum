@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "宋体", serif;
+	border-radius: 0;
+}
+
+body {
+	background-image: url("../img/Sign_in/bg_4.png");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#demo,#allnav{
+	max-width: 85%;
+}
+.carousel img{
+	width: 100%;
+}
+.header_nav{
+	margin-top:20px;
+}
+.container_art{
+	max-width: 85%;
+}
+
+
+header {
+	margin-top:55px;
+}
+
+article {}
+
+.card-link{
+	color: #181d1d;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+#accordion_2{
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	min-width: 320px !important;
+}
+
+.headdemo1{
+	margin-top: 55px;
+}
+.headdemo2{
+	width: 90% !important;
+	margin-top: 55px;
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 5px;
+	padding: 10px 5px 5px 10px;
+}
+footer {
+	background-color: #3c3c3c;
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+}
+.media{
+	color: #1b1e21;
+	font-weight: 900;
+}
+#catoon{
+	animation:myframes 1.8s infinite linear;
+	-webkit-animation:myframes 1.8s infinite linear;
+}
+@keyframes myframes{
+	0% {color: #FFFFFF}
+	25% {color: #0e84b5;font-weight: 900}
+	50% {color: #0e6eff;font-weight: 900}
+	75% {color: #0e84b5;font-weight: 900}
+	100% {color: #FFFFFF}
+}
+@-webkit-keyframes myframes{
+	0% {color: #FFFFFF}
+	25% {color: #0e84b5;font-weight: 900}
+	50% {color: #0e6eff;font-weight: 900}
+	75% {color: #0e84b5;font-weight: 900}
+	100% {color: #FFFFFF}
+}
