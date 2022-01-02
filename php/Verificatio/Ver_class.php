@@ -26,8 +26,8 @@ class Captcha
             $angle = mt_rand(-25, 25);
             $y = mt_rand(25, 32);
 //            $font='C:/Windows/Fonts/COOPBL.TTF';
-//            $font='D:\phpstudy_pro\WWW\pdo\php\Verificatio\fonts/COOPBL.TTF';
-            $font = 'coolpel.ttf';
+            $font = '/www/admin/localhost_80/wwwroot/pdo/php/Verificatio/fonts/COOPBL.TTF';
+//            $font = 'coolpel.ttf';
             $color = imagecolorallocate($img, mt_rand(0, 255), mt_rand(0, 255), mt_rand(0, 255));
             imagettftext($img, $size, $angle, $x, $y, $color, $font, $v);
             $x += 30;
